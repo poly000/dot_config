@@ -1,0 +1,10 @@
+[user]
+	email = 1348292515@qq.com
+	name = poly000
+	signingkey = /home/poly/.ssh/id_ed25519.pub
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[pull]
+	rebase = false
