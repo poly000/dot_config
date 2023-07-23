@@ -47,4 +47,7 @@ bindkey  "^[[3~"  delete-char
 bindkey '\e[A' history-search-backward
 bindkey '\e[B' history-search-forward
 
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
 alias ls=exa
