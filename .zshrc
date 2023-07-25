@@ -44,10 +44,14 @@ bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
 bindkey  "^[[3~"  delete-char
 
-bindkey '\e[A' history-search-backward
-bindkey '\e[B' history-search-forward
 
-bindkey "^[[1;5C" forward-word
-bindkey "^[[1;5D" backward-word
+source /usr/share/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
+
+bindkey '\e[A' history-substring-search-up
+bindkey '\e[B' history-substring-search-down
+
+PATH+=:~/.yarn/bin/
 
 alias ls=exa
+alias l="exa -l"
+alias la="exa -la"

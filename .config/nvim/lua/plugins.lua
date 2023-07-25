@@ -7,4 +7,5 @@ return require('packer').startup(function()
 			require('Comment').setup()
 		end
 	}
+	use 'fidian/hexmode'
 end)
