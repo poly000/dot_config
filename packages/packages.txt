@@ -1,6 +1,5 @@
 adobe-source-han-sans-cn-fonts
 adobe-source-sans-fonts
-android-tools
 archlinuxcn-keyring
 archlinuxcn-mirrorlist-git
 aria2
