@@ -1,1 +1,1 @@
-pacman -Qeq > packages.txt
+pacman -Qeq | grep -v fakeroot > packages.txt
