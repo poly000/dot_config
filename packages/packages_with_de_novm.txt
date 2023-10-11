@@ -34,7 +34,6 @@ gst-plugins-bad
 gst-plugins-good
 icu69-bin
 intel-ucode
-iwd
 joyutils
 jstest-gtk-git
 kde-gtk-config
